@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | EscapeMyPlanet</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=350 height=650 style="width: 350px; height: 650px; background: url('Build/WEBBuild.jpg') center / cover"></canvas>
-    <script src="Build/WEBBuild.loader.js"></script>
+    <canvas id="unity-canvas" width=350 height=650 style="width: 350px; height: 650px; background: url('Build/Web.jpg') center / cover"></canvas>
+    <script src="Build/Web.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/WEBBuild.data",
-        frameworkUrl: "Build/WEBBuild.framework.js",
-        codeUrl: "Build/WEBBuild.wasm",
+        dataUrl: "Build/Web.data",
+        frameworkUrl: "Build/Web.framework.js",
+        codeUrl: "Build/Web.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DotSoft",
         productName: "EscapeMyPlanet",
